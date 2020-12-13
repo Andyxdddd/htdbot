@@ -20,7 +20,6 @@ fs.readdir("./commands/moderation/", (err, files) => {
 
 client.on("ready", async () => {
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity("Kids These Days!", { type: "LISTENING" });
 });
 
 client.on("message", async message => {
